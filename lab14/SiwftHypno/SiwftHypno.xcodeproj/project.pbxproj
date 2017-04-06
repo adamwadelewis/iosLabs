@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DED3C7CD1E95C62F0013D34C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED3C7CC1E95C62F0013D34C /* AppDelegate.swift */; };
+		DED3C7CF1E95C62F0013D34C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED3C7CE1E95C62F0013D34C /* ViewController.swift */; };
+		DED3C7D41E95C62F0013D34C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DED3C7D31E95C62F0013D34C /* Assets.xcassets */; };
+		DED3C7DF1E95C68D0013D34C /* MyHypnoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED3C7DE1E95C68D0013D34C /* MyHypnoView.swift */; };
+		DEFE43671E96D2E90041941A /* MyHypnoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEFE43661E96D2E90041941A /* MyHypnoView.xib */; };
+		DEFE43691E96D31C0041941A /* MyHypnoStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEFE43681E96D31C0041941A /* MyHypnoStoryboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DED3C7C91E95C62F0013D34C /* SiwftHypno.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SiwftHypno.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DED3C7CC1E95C62F0013D34C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DED3C7CE1E95C62F0013D34C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DED3C7D31E95C62F0013D34C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DED3C7D81E95C62F0013D34C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DED3C7DE1E95C68D0013D34C /* MyHypnoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyHypnoView.swift; sourceTree = "<group>"; };
+		DEFE43661E96D2E90041941A /* MyHypnoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyHypnoView.xib; sourceTree = "<group>"; };
+		DEFE43681E96D31C0041941A /* MyHypnoStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MyHypnoStoryboard.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DED3C7C61E95C62F0013D34C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DED3C7C01E95C62F0013D34C = {
+			isa = PBXGroup;
+			children = (
+				DED3C7CB1E95C62F0013D34C /* SiwftHypno */,
+				DED3C7CA1E95C62F0013D34C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DED3C7CA1E95C62F0013D34C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DED3C7C91E95C62F0013D34C /* SiwftHypno.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DED3C7CB1E95C62F0013D34C /* SiwftHypno */ = {
+			isa = PBXGroup;
+			children = (
+				DED3C7CC1E95C62F0013D34C /* AppDelegate.swift */,
+				DED3C7CE1E95C62F0013D34C /* ViewController.swift */,
+				DED3C7DE1E95C68D0013D34C /* MyHypnoView.swift */,
+				DED3C7D31E95C62F0013D34C /* Assets.xcassets */,
+				DED3C7D81E95C62F0013D34C /* Info.plist */,
+				DEFE43661E96D2E90041941A /* MyHypnoView.xib */,
+				DEFE43681E96D31C0041941A /* MyHypnoStoryboard.storyboard */,
+			);
+			path = SiwftHypno;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DED3C7C81E95C62F0013D34C /* SiwftHypno */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DED3C7DB1E95C62F0013D34C /* Build configuration list for PBXNativeTarget "SiwftHypno" */;
+			buildPhases = (
+				DED3C7C51E95C62F0013D34C /* Sources */,
+				DED3C7C61E95C62F0013D34C /* Frameworks */,
+				DED3C7C71E95C62F0013D34C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SiwftHypno;
+			productName = SiwftHypno;
+			productReference = DED3C7C91E95C62F0013D34C /* SiwftHypno.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DED3C7C11E95C62F0013D34C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Adam Lewis";
+				TargetAttributes = {
+					DED3C7C81E95C62F0013D34C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 985KH2M6HA;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DED3C7C41E95C62F0013D34C /* Build configuration list for PBXProject "SiwftHypno" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DED3C7C01E95C62F0013D34C;
+			productRefGroup = DED3C7CA1E95C62F0013D34C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DED3C7C81E95C62F0013D34C /* SiwftHypno */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DED3C7C71E95C62F0013D34C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DED3C7D41E95C62F0013D34C /* Assets.xcassets in Resources */,
+				DEFE43691E96D31C0041941A /* MyHypnoStoryboard.storyboard in Resources */,
+				DEFE43671E96D2E90041941A /* MyHypnoView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DED3C7C51E95C62F0013D34C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DED3C7DF1E95C68D0013D34C /* MyHypnoView.swift in Sources */,
+				DED3C7CF1E95C62F0013D34C /* ViewController.swift in Sources */,
+				DED3C7CD1E95C62F0013D34C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DED3C7D91E95C62F0013D34C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DED3C7DA1E95C62F0013D34C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DED3C7DC1E95C62F0013D34C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 985KH2M6HA;
+				INFOPLIST_FILE = SiwftHypno/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.athens.SiwftHypno;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DED3C7DD1E95C62F0013D34C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 985KH2M6HA;
+				INFOPLIST_FILE = SiwftHypno/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.athens.SiwftHypno;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DED3C7C41E95C62F0013D34C /* Build configuration list for PBXProject "SiwftHypno" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DED3C7D91E95C62F0013D34C /* Debug */,
+				DED3C7DA1E95C62F0013D34C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DED3C7DB1E95C62F0013D34C /* Build configuration list for PBXNativeTarget "SiwftHypno" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DED3C7DC1E95C62F0013D34C /* Debug */,
+				DED3C7DD1E95C62F0013D34C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DED3C7C11E95C62F0013D34C /* Project object */;
+}
